@@ -1,0 +1,23 @@
+* {margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;}
+body {background:#fff8f0;color:#333;}
+header {display:flex;justify-content:space-between;align-items:center;padding:15px 50px;background:#ff6b3c;}
+header .logo img {height:50px;}
+header nav ul {list-style:none;display:flex;gap:20px;}
+header nav ul li a {text-decoration:none;color:#fff;font-weight:bold;}
+.hero {text-align:center;padding:60px 20px;background:linear-gradient(90deg,#ffb347,#ffcc33);color:#fff;}
+.hero h1 {font-size:2.5rem;margin-bottom:15px;}
+.hero p {font-size:1.2rem;margin-bottom:20px;}
+.btn-whatsapp {background:#25D366;color:white;padding:12px 25px;border-radius:8px;text-decoration:none;font-weight:bold;}
+.products {padding:50px 20px;max-width:1200px;margin:auto;}
+.products h2 {text-align:center;margin-bottom:40px;font-size:2rem;}
+.brand {margin-bottom:40px;}
+.brand h3 {color:#ff6b3c;margin-bottom:20px;}
+.product-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;}
+.product-card {background:#fff2e6;border-radius:10px;padding:15px;text-align:center;box-shadow:0 4px 6px rgba(0,0,0,0.1);}
+.product-card img {max-width:100%;border-radius:10px;}
+.product-card h4 {margin:10px 0;}
+.contact {padding:50px 20px;background:#fff0e6;max-width:800px;margin:auto;text-align:center;}
+.contact form {display:flex;flex-direction:column;gap:15px;margin-top:20px;}
+.contact input, .contact textarea {padding:10px;border-radius:5px;border:1px solid #ccc;width:100%;}
+.contact button {padding:12px;background:#ff6b3c;color:#fff;border:none;border-radius:8px;font-weight:bold;cursor:pointer;}
+footer {text-align:center;padding:20px;background:#ff6b3c;color:#fff;}
