@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Samsung Galaxy S23",
+    "price": "28,000 TL",
+    "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23.jpg",
+    "status": "available"
+  },
+  {
+    "name": "iPhone 14",
+    "price": "18,873 TL",
+    "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14.jpg",
+    "status": "available"
+  },
+  {
+    "name": "Redmi Note 13",
+    "price": "12,900 TL",
+    "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-13.jpg",
+    "status": "sold"
+  }
+]
