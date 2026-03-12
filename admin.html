@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>لوحة إدارة Hayahoom Phone</title>
+<style>
+body{font-family:Arial;padding:40px;background:#f2f2f2}
+input,select{padding:10px;margin:5px;width:250px}
+button{padding:10px 20px;background:#0a58ca;color:white;border:0}
+</style>
+</head>
+
+<body>
+
+<h2>لوحة إدارة المنتجات</h2>
+
+<input id="name" placeholder="اسم الهاتف"><br>
+<input id="price" placeholder="السعر"><br>
+<input id="image" placeholder="رابط صورة الهاتف"><br>
+
+<select id="status">
+<option value="available">متوفر</option>
+<option value="sold">مباع</option>
+</select>
+
+<br><br>
+
+<button onclick="addProduct()">إضافة المنتج</button>
+
+<script>
+
+function addProduct(){
+
+let products = JSON.parse(localStorage.getItem("products") || "[]");
+
+products.push({
+name:document.getElementById("name").value,
+price:document.getElementById("price").value,
+image:document.getElementById("image").value,
+status:document.getElementById("status").value
+});
+
+localStorage.setItem("products",JSON.stringify(products));
+
+alert("تمت إضافة المنتج بنجاح! افتح الموقع لرؤيته.");
+}
+
+</script>
+
+</body>
+</html>
